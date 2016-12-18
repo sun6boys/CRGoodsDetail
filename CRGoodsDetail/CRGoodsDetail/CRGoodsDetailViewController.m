@@ -31,7 +31,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = self.title;
+    self.navigationItem.title = self.goodsName;
     
     [self.view addSubview:self.statusLabel];
     [self.view addSubview:self.buyButton];
