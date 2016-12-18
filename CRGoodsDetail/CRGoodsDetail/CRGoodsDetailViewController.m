@@ -31,6 +31,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+    
     self.navigationItem.title = self.goodsName;
     
     [self.view addSubview:self.statusLabel];
