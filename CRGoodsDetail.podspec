@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CRGoodsDetail"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "A short description of CRGoodsDetail."
 
   s.description  = <<-DESC
@@ -131,5 +131,5 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
    s.dependency "CRProtocolManager"
    s.dependency "CRGoodsDetailServiceProtocol"
-
+   s.dependency "CRConfirmOrderServiceProtocol"
 end
