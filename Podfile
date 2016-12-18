@@ -9,6 +9,7 @@ target 'CRGoodsDetail' do
 
 pod "CRProtocolManager"
 pod "CRGoodsDetailServiceProtocol"
+pod "CRConfirmOrderServiceProtocol"
 
 end
 

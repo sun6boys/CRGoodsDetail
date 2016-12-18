@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "857AB17C97FCE670FFA9EF0F"
+               BlueprintIdentifier = "A19259584E3A5CCAAE6B377E"
                BuildableName = "libCRProtocolManager.a"
                BlueprintName = "CRProtocolManager"
                ReferencedContainer = "container:Pods.xcodeproj">

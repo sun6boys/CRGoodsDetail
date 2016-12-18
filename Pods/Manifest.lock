@@ -1,12 +1,15 @@
 PODS:
+  - CRConfirmOrderServiceProtocol (0.0.1)
   - CRGoodsDetailServiceProtocol (0.0.1)
   - CRProtocolManager (0.0.3)
 
 DEPENDENCIES:
+  - CRConfirmOrderServiceProtocol
   - CRGoodsDetailServiceProtocol
   - CRProtocolManager
 
 SPEC CHECKSUMS:
+  CRConfirmOrderServiceProtocol: b38dfef5966c6305267d40ebbcafaf99b06fac8d
   CRGoodsDetailServiceProtocol: e1fc5a0a5ee0f447343fa640e3e1c2ccd3874956
   CRProtocolManager: 6a335e8db703c7b2cd5acc1726996300ac687f03
 

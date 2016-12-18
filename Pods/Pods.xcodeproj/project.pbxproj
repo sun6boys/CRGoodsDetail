@@ -10,6 +10,19 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>00A3F3301AAE10DC44631B14214FFFEF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CRProtocolManager-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>00C5A2D0130CE3606FADA642AAFD6B7E</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -23,72 +36,25 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>0D4EB0B8DC5FEF5E79AFF9B838E716E7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1736D7408F101B2128F41595E59A6987</string>
-				<string>410789F665665DFFE02AF13976E2706E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>100018572EAB07B0A01A36D8039ED95C</key>
+		<key>0175270F99685BFE3243CDE6565BA226</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1FFEE9001726EBCF6C906CDE737E68EA</string>
+			<string>7281C714854ED0EE98335EB1A1B04A24</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>17034B139A376043E4F2DB24B86D6E2C</key>
+		<key>028AAE54AABAAB4D2E8A419C092223D2</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>2943BED7A39C32198E4BAADB61A9050B</string>
-				<string>2EE45FC0AF2232531230DF98878EEF3D</string>
-				<string>E99384493EE676AAE53CE6AC463139BC</string>
-				<string>178A33B0CDD7A214708967A25D3C455E</string>
-			</array>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/CRProtocolManager</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1736D7408F101B2128F41595E59A6987</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DE3A072E7B2811AA800D1AF320FD755C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CRGoodsDetailServiceProtocol</string>
-			<key>path</key>
-			<string>CRGoodsDetailServiceProtocol</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>178A33B0CDD7A214708967A25D3C455E</key>
-		<dict>
-			<key>includeInIndex</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
 			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CRProtocolManager-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<key>remoteGlobalIDString</key>
+			<string>C4CCFB7FD6E7A7CCD3751B55C6E31378</string>
+			<key>remoteInfo</key>
+			<string>CRProtocolManager</string>
 		</dict>
 		<key>19052BAEAC961C9678D702EDFD0AB754</key>
 		<dict>
@@ -123,20 +89,35 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1FFEE9001726EBCF6C906CDE737E68EA</key>
+		<key>1CC69685AAD95CE4FFD08CEFCEF87D71</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>baseConfigurationReference</key>
+			<string>5F57CC201F15DD50F9AA8B2DAF4FC9E9</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/CRProtocolManager/CRProtocolManager-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.2</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>CRProtocolManager.m</string>
-			<key>path</key>
-			<string>CRProtocolManager/CRProtocolManager/CRProtocolManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>Release</string>
 		</dict>
 		<key>268A422A147D2B2E2F343D6AA326EA3C</key>
 		<dict>
@@ -151,18 +132,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2943BED7A39C32198E4BAADB61A9050B</key>
+		<key>2B85470275A89DAF8BB2BA0BD9AF4306</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>BAD9ECB31DAC7ED7F4F3C45CCEE0ACD6</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>CRProtocolManager.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
@@ -177,56 +158,6 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
-		</dict>
-		<key>2EE45FC0AF2232531230DF98878EEF3D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>CRProtocolManager-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>35A2A2A310D0730D6669FA70283E62C5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E99384493EE676AAE53CE6AC463139BC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3D31AE50223A45F8AFC1E5719957E778</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AFA1C7C51F63C0583AD12066BE46CBBC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>410789F665665DFFE02AF13976E2706E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AB3F24EAC7EEDFFEE797762C63E89C42</string>
-				<string>1FFEE9001726EBCF6C906CDE737E68EA</string>
-				<string>17034B139A376043E4F2DB24B86D6E2C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CRProtocolManager</string>
-			<key>path</key>
-			<string>CRProtocolManager</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>45213D093A18CFFE12D55325C5E0DFB8</key>
 		<dict>
@@ -301,61 +232,24 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>46335B87F3DB8A5C5C2339BF1EA846A2</key>
+		<key>4B734E1A420F3C9D9350A7EC65F276DE</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4D6EF87916766D75B81CFF139D712445</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4D6EF87916766D75B81CFF139D712445</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AB3F24EAC7EEDFFEE797762C63E89C42</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>532D90FCA4D9A1D93C46F752669E56B7</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2EE45FC0AF2232531230DF98878EEF3D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/CRProtocolManager/CRProtocolManager-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.2</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>CRProtocolManager-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>53F661C0CA7190D2CF05023FB33D61E4</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>8E074BFD38401982194970FEF879C2AA</string>
+				<string>AC92628A49D71FC13411D26056B09DE0</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -367,7 +261,7 @@
 		<key>542F77D2ECCCCFBBC7FF2EE515D8818F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8E074BFD38401982194970FEF879C2AA</string>
+			<string>AC92628A49D71FC13411D26056B09DE0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -397,6 +291,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>5F57CC201F15DD50F9AA8B2DAF4FC9E9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>CRProtocolManager-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>5F654D5A0E70119F95403035C4B3015E</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -410,33 +317,35 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>603350B5B12A51BC6D76AE2CFDAB33CC</key>
+		<key>6107AE927DE19E6429A2ABB091159721</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>532D90FCA4D9A1D93C46F752669E56B7</string>
-				<string>F7E6E62F332D4187E2AB14FB93F8EB7E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
+			<key>baseConfigurationReference</key>
+			<string>5F57CC201F15DD50F9AA8B2DAF4FC9E9</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/CRProtocolManager/CRProtocolManager-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.2</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>6491CF89E72536BFEBE99F6D3B4BFBEB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>35A2A2A310D0730D6669FA70283E62C5</string>
-				<string>100018572EAB07B0A01A36D8039ED95C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
 		<key>6536FB21BFD8DF905E82DFE057C8F351</key>
 		<dict>
@@ -451,7 +360,7 @@
 			<array/>
 			<key>dependencies</key>
 			<array>
-				<string>EAB0F35E6094811EA0600F7162744739</string>
+				<string>BA7AF68D5459DC097E907C2CB4BEBB0E</string>
 			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
@@ -464,13 +373,28 @@
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
+		<key>7281C714854ED0EE98335EB1A1B04A24</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CRProtocolManager.h</string>
+			<key>path</key>
+			<string>CRProtocolManager/CRProtocolManager/CRProtocolManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
 			<key>children</key>
 			<array>
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
 				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>0D4EB0B8DC5FEF5E79AFF9B838E716E7</string>
+				<string>FAB66762C5CC0280F775275EC8090E2C</string>
 				<string>CCA510CFBEA2D207524CDA0D73C3B561</string>
 				<string>C9E458137D79A4C2BA5DB841C90CDC66</string>
 			</array>
@@ -479,18 +403,61 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8E074BFD38401982194970FEF879C2AA</key>
+		<key>883B7128AD71DFDDC557E2C371701E3E</key>
 		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>A703C84BEC79D1F0543773C83E2BB515</string>
+				<string>8A0320BF8C2C00F0865D6573B8F47C68</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8A0320BF8C2C00F0865D6573B8F47C68</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F39B3DBCD355E7314CDAF3F5B251F5EC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>908D73080B976669B1C28A4708B9D88E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9D3A8AF3A606E6456D1262B309724316</string>
+				<string>5F57CC201F15DD50F9AA8B2DAF4FC9E9</string>
+				<string>4B734E1A420F3C9D9350A7EC65F276DE</string>
+				<string>00A3F3301AAE10DC44631B14214FFFEF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Foundation.framework</string>
+			<string>Support Files</string>
 			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<string>../Target Support Files/CRProtocolManager</string>
 			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>90D090F5F9E373BE0FFB42CE73818F2A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7281C714854ED0EE98335EB1A1B04A24</string>
+				<string>F39B3DBCD355E7314CDAF3F5B251F5EC</string>
+				<string>908D73080B976669B1C28A4708B9D88E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>CRProtocolManager</string>
+			<key>path</key>
+			<string>CRProtocolManager</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>93C7CDA2363465992CBD826AE6FD1381</key>
 		<dict>
@@ -502,6 +469,19 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-CRGoodsDetail.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9D3A8AF3A606E6456D1262B309724316</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>CRProtocolManager.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -535,20 +515,12 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>A160E0FB9C6AB31FCD8F35FBA60DFFB5</key>
+		<key>A703C84BEC79D1F0543773C83E2BB515</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
+			<key>fileRef</key>
+			<string>4B734E1A420F3C9D9350A7EC65F276DE</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libCRProtocolManager.a</string>
-			<key>path</key>
-			<string>libCRProtocolManager.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>A99FCDDE9AD22E69B9A674A4FCD845B9</key>
 		<dict>
@@ -580,7 +552,50 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>AB3F24EAC7EEDFFEE797762C63E89C42</key>
+		<key>A9ED732A432C0EBE41B1DC8CB1B7B30C</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libCRProtocolManager.a</string>
+			<key>path</key>
+			<string>libCRProtocolManager.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>AC566759E73BCD406716F2C5226D12DB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>ADB79723B720D6B4A998D4AE84A1EA8B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>CRGoodsDetailServiceProtocol</string>
+			<key>path</key>
+			<string>CRGoodsDetailServiceProtocol</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AC92628A49D71FC13411D26056B09DE0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>ADB79723B720D6B4A998D4AE84A1EA8B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -589,18 +604,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>CRProtocolManager.h</string>
+			<string>CRGoodsDetailServiceProtocol.h</string>
 			<key>path</key>
-			<string>CRProtocolManager/CRProtocolManager/CRProtocolManager.h</string>
+			<string>CRGoodsDetailServiceProtocol/CRGoodsDetailServiceProtocol/CRGoodsDetailServiceProtocol.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFA1C7C51F63C0583AD12066BE46CBBC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8E074BFD38401982194970FEF879C2AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
 		<dict>
@@ -619,6 +627,24 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
+		<key>BA7AF68D5459DC097E907C2CB4BEBB0E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>CRProtocolManager</string>
+			<key>target</key>
+			<string>C4CCFB7FD6E7A7CCD3751B55C6E31378</string>
+			<key>targetProxy</key>
+			<string>028AAE54AABAAB4D2E8A419C092223D2</string>
+		</dict>
+		<key>BAD9ECB31DAC7ED7F4F3C45CCEE0ACD6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AC92628A49D71FC13411D26056B09DE0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
 		<dict>
 			<key>children</key>
@@ -632,12 +658,64 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>C250D27A5C905D17044323E79B104C75</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0175270F99685BFE3243CDE6565BA226</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C4CCFB7FD6E7A7CCD3751B55C6E31378</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>C50F956A9BCCFC8DECB28F179D52B1AA</string>
+			<key>buildPhases</key>
+			<array>
+				<string>883B7128AD71DFDDC557E2C371701E3E</string>
+				<string>2B85470275A89DAF8BB2BA0BD9AF4306</string>
+				<string>C250D27A5C905D17044323E79B104C75</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>CRProtocolManager</string>
+			<key>productName</key>
+			<string>CRProtocolManager</string>
+			<key>productReference</key>
+			<string>A9ED732A432C0EBE41B1DC8CB1B7B30C</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
 		<key>C4D5E56226768C7FA1B8D319604CCBB7</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
 				<string>9F8ADDDB940AE1A897D11A0D1FEDE56A</string>
 				<string>A99FCDDE9AD22E69B9A674A4FCD845B9</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>C50F956A9BCCFC8DECB28F179D52B1AA</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>6107AE927DE19E6429A2ABB091159721</string>
+				<string>1CC69685AAD95CE4FFD08CEFCEF87D71</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -659,30 +737,32 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CBB0DB3130646D162DF08CA44036D5B4</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>F60AE00FB489E048EDCF7E26C38B6DE0</string>
-			<key>remoteInfo</key>
-			<string>CRProtocolManager</string>
-		</dict>
 		<key>CCA510CFBEA2D207524CDA0D73C3B561</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>A160E0FB9C6AB31FCD8F35FBA60DFFB5</string>
+				<string>A9ED732A432C0EBE41B1DC8CB1B7B30C</string>
 				<string>E28043DE1EACCA4CC769B2A635B835AA</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D3F00BEC6B927C0011AFD9126E354BEE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F6BF8C43C8BA76DB15F6D22D83730BBD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>CRConfirmOrderServiceProtocol</string>
+			<key>path</key>
+			<string>CRConfirmOrderServiceProtocol</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -721,7 +801,7 @@
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>F60AE00FB489E048EDCF7E26C38B6DE0</string>
+				<string>C4CCFB7FD6E7A7CCD3751B55C6E31378</string>
 				<string>6536FB21BFD8DF905E82DFE057C8F351</string>
 			</array>
 		</dict>
@@ -793,21 +873,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>DE3A072E7B2811AA800D1AF320FD755C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CRGoodsDetailServiceProtocol.h</string>
-			<key>path</key>
-			<string>CRGoodsDetailServiceProtocol/CRGoodsDetailServiceProtocol/CRGoodsDetailServiceProtocol.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>E28043DE1EACCA4CC769B2A635B835AA</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -830,30 +895,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>E99384493EE676AAE53CE6AC463139BC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CRProtocolManager-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EAB0F35E6094811EA0600F7162744739</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>CRProtocolManager</string>
-			<key>target</key>
-			<string>F60AE00FB489E048EDCF7E26C38B6DE0</string>
-			<key>targetProxy</key>
-			<string>CBB0DB3130646D162DF08CA44036D5B4</string>
-		</dict>
 		<key>ECB7419BCAC6C15B5EDDCDFAF9C2E7D3</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -867,60 +908,50 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F60AE00FB489E048EDCF7E26C38B6DE0</key>
+		<key>F39B3DBCD355E7314CDAF3F5B251F5EC</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>603350B5B12A51BC6D76AE2CFDAB33CC</string>
-			<key>buildPhases</key>
-			<array>
-				<string>6491CF89E72536BFEBE99F6D3B4BFBEB</string>
-				<string>3D31AE50223A45F8AFC1E5719957E778</string>
-				<string>46335B87F3DB8A5C5C2339BF1EA846A2</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>CRProtocolManager</string>
-			<key>productName</key>
-			<string>CRProtocolManager</string>
-			<key>productReference</key>
-			<string>A160E0FB9C6AB31FCD8F35FBA60DFFB5</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
+			<string>CRProtocolManager.m</string>
+			<key>path</key>
+			<string>CRProtocolManager/CRProtocolManager/CRProtocolManager.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F7E6E62F332D4187E2AB14FB93F8EB7E</key>
+		<key>F6BF8C43C8BA76DB15F6D22D83730BBD</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2EE45FC0AF2232531230DF98878EEF3D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/CRProtocolManager/CRProtocolManager-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.2</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Release</string>
+			<string>CRConfirmOrderServiceProtocol.h</string>
+			<key>path</key>
+			<string>CRConfirmOrderServiceProtocol/CRConfirmOrderServiceProtocol/CRConfirmOrderServiceProtocol.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FAB66762C5CC0280F775275EC8090E2C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D3F00BEC6B927C0011AFD9126E354BEE</string>
+				<string>AC566759E73BCD406716F2C5226D12DB</string>
+				<string>90D090F5F9E373BE0FFB42CE73818F2A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
