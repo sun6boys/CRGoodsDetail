@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "CRGoodsDetail"
-  s.version      = "2"
+  s.version      = "3"
   s.summary      = "A short description of CRGoodsDetail."
 
   s.description  = <<-DESC
@@ -38,6 +38,8 @@ Pod::Spec.new do |s|
   s.subspec 'Source' do |ss|
     ss.source_files = 'CRGoodsDetail/CRGoodsDetail/Source/*.{h,m}'
     ss.framework  = "UIKit"
+    ss.dependency = "CRConfirmOrder/Protocol"
+    ss.dependency = "CRProtocolManager"
   end
   s.subspec 'ServiceProvider' do |ss|
     ss.source_files = 'CRGoodsDetail/CRGoodsDetail/ServiceProvider/*.{h,m}'
