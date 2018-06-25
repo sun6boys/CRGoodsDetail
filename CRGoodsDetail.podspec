@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "CRGoodsDetail"
-  s.version      = "1"
+  s.version      = "2"
   s.summary      = "A short description of CRGoodsDetail."
 
   s.description  = <<-DESC
@@ -44,6 +44,5 @@ Pod::Spec.new do |s|
     ss.dependency "CRGoodsDetail/Protocol"
     ss.dependency "CRProtocolManager"
     ss.dependency "CRGoodsDetail/Source"
-CRGoodsDetail  end
-
+   end
 end
