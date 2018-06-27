@@ -1,15 +1,21 @@
 PODS:
-  - CRConfirmOrder/Protocol (5)
-  - CRProtocolManager (0.0.3)
+  - CRConfirmOrder/Protocol (10)
+  - CRProtocolManager (0.0.6)
 
 DEPENDENCIES:
   - CRConfirmOrder/Protocol
   - CRProtocolManager
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CRProtocolManager
+  https://github.com/sun6boys/CRRepositories.git:
+    - CRConfirmOrder
+
 SPEC CHECKSUMS:
-  CRConfirmOrder: 221dba185bad58ea7c760790f4dfa9e25a22de92
-  CRProtocolManager: 6a335e8db703c7b2cd5acc1726996300ac687f03
+  CRConfirmOrder: ee9ec647545403cee1ee3b4cd19cf8401413a034
+  CRProtocolManager: 0b76069708eebdf57450355b7a618f9a322f3b8b
 
-PODFILE CHECKSUM: 4f0ea3ba1cf3a0e5f5c41b8203c283219f2ab4b7
+PODFILE CHECKSUM: 8fab72be470401d8676bccf3890ba35a9727798a
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3
